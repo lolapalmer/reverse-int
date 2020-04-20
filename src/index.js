@@ -1,6 +1,6 @@
 module.exports = function reverse (n) {
-  if (b < 0){
-      return -reverse(-b)
+  if (n < 0){
+      return -reverse(-n)
   };
   let str = n.toString()
   let strArray = str.split("");
